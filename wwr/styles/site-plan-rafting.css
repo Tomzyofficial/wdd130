@@ -3,8 +3,8 @@
 :root {
   --primary-color: #ff0000;
   --secondary-color: #FFFFFF;
-  --ancient1-color: #F46565;
-  --ancient2-color: #659CF4;
+  --accent1-color: #F46565;
+  --accent2-color: #659CF4;
   --heading-font: Open sans;
   --paragraph-font: Roboto;
   --nav-background-color: rgba(0, 0, 0, 0.8);
