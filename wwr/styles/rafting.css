@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: roboto;
 }
 
 :root {
@@ -19,8 +20,45 @@
   --nav-hover-background-color: lightgreen;
 }
 
+header {
+  background-color: steelblue;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+
+}
+
+.navigation a {
+  display: block;
+  color: navy;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: whitesmoke;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 header nav a {
   text-decoration: none;
+  padding: 1rem;
+  font-weight: 700;
+  color: #fff;
+  font-size: 18px;
 }
 
 .hero {
@@ -35,7 +73,7 @@ header nav a {
 
 .hero h1 {
   color: var(--secondary-color);
-  font-family: Open Sans;
+  font-family: open sans;
   padding: 20px;
   position: absolute;
   top: 55px;
@@ -61,17 +99,54 @@ header nav a {
 section h2 {
   color: var(--accent1-color);
   font-family: Roboto;
+  text-align: center;
+  padding: 10px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.grid img {
+  width: 150px;
+  height: 150px;
 }
 
 section:last-child img {
-  width: 300px;
+  width: 200px;
   height: auto;
 }
+
+.adventure {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #659CF4;
+  padding: 10px;
+  margin-top: 40px;
+  height: fit-content;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* footer p {
+  float: left;
+}
+
+footer nav {
+  float: right;
+} */
 
 footer nav a {
   text-decoration: none;
 }
 
 footer nav a img {
-  width: 30px;
+  width: 20px;
+  height: auto;
 }
