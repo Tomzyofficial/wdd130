@@ -146,8 +146,11 @@ footer nav a img {
 /* Css for contact page */
 main .contact-us {
   background-color: transparent;
-  font-size: 3rem;
-  margin-left: calc(100vw - 63vw);
+  font-size: 2rem;
+  width: 80%;
+  position: absolute;
+  top: 10rem;
+
 }
 
 .main-wrapper {
