@@ -188,6 +188,10 @@ textarea {
   display: flex;
 }
 
+.news label {
+  display: block;
+}
+
 button[type='submit'] {
   margin-top: 30px;
   color: white;
