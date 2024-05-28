@@ -192,7 +192,7 @@ textarea {
   display: block;
 }
 
-button[type='button'] {
+button[type='submit'] {
   margin-top: 30px;
   color: white;
   background-color: lightgreen;
