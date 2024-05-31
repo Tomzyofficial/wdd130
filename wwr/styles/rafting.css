@@ -195,7 +195,7 @@ textarea {
   display: block;
 }
 
-button[type='submit'] {
+#contact-details button {
   margin-top: 30px;
   color: white;
   background-color: lightgreen;
@@ -203,4 +203,212 @@ button[type='submit'] {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* Trips.html contents */
+.hero-bg .hero-img {
+  width: 100%;
+  height: 40dvh;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/trips-hero-img.jpg');
+  background-size: 100% 100%;
+}
+
+.hero-bg h1 {
+  color: var(--secondary-color);
+  font-family: open sans;
+  padding: 20px;
+  position: absolute;
+  left: 29rem;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 100px 8rem;
+  width: 80%;
+  display: block;
+}
+
+.container p {
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.container a {
+  display: block;
+  background-color: #18525D;
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
+  width: 75%;
+  text-transform: uppercase;
+  margin-left: 8rem;
+}
+
+.trips-category {
+  margin-top: 100px;
+  padding: 100px 10px;
+  border-top: 1px solid #ccc;
+}
+
+.trips-category {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.trips-category figure {
+  padding: 20px;
+  width: 100%;
+}
+
+.trips-category img {
+  width: inherit;
+  height: 200px;
+}
+
+.trips-category figure span {
+  font-size: 15px;
+  margin-top: 30px;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table th {
+  background-color: #0000009E;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+/* home page contents css */
+.main-content .hero {
+  width: 100%;
+  height: 50dvh;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/trips-hero-img.jpg');
+  background-size: 100% 100%;
+}
+
+.main-content h1 {
+  color: var(--secondary-color);
+  width: 50%;
+  font-family: open sans;
+  padding: 20px;
+  position: absolute;
+  left: 10rem;
+  text-transform: uppercase;
+}
+
+aside {
+  position: fixed;
+  transform: rotate(90deg);
+  right: 0;
+  bottom: 13rem;
+  z-index: 1;
+  background-color: orange;
+  padding: 15px 25px;
+  border-radius: 50px;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-category {
+  margin: 50px 150px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 20px;
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+.home-category figure {
+  margin-top: 20px;
+}
+
+.home-category img {
+  width: 18rem;
+  height: 200px;
+}
+
+.home-category figcaption {
+  color: var(--accent2-color);
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.end-wrapper {
+  background-color: burlywood;
+  padding: 40px 50px;
+  margin: 150px 0;
+}
+
+.brief {
+  margin-left: 100px;
+}
+
+.end-wrapper img {
+  width: 40%;
+  height: 25%;
+  position: relative;
+}
+
+.end-wrapper .write-ups {
+  background-color: rgba(0, 0, 0, .8);
+  transform: translate(200px, -250px);
+  color: whitesmoke;
+  font-size: 14px;
+  padding: 40px 40px 170px;
+  text-align: center;
+  width: 40%;
+  height: 30%;
+  position: absolute;
+}
+
+.write-ups h2 {
+  padding-bottom: 20px;
+}
+
+.write-ups .join {
+  margin-top: 20px;
+}
+
+.join a {
+  background-color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.brief>form {
+  width: 40%;
+  margin: 20px 0;
+}
+
+.brief form button {
+  padding: 10px 10px;
+  margin-top: 5px;
+  border: none;
+  background-color: white;
+
 }
